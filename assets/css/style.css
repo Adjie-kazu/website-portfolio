@@ -802,11 +802,6 @@ main {
 .clients-item img {
   width: 100%;
   border-radius: 10px;
-  transition: transform 0.3s ease;
-}
-
-.clients-item img:hover {
-  transform: scale(1.2);
 }
 
 /*-----------------------------------*\
