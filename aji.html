@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adjie - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Adjie Rossi Arrianto"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Adjie Rossi Arrianto</h1>
+
+            <p class="title">Graphic Designer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="https://mail.google.com/mail/?view=cm&to=adjierossi7@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact-link"
+                  >adjierossi7@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a
+                  href="https://wa.link/7c7zfg"
+                  class="contact-link"
+                  target="_blank"
+                  >+6282328792114</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>Bandung, Jawa Barat</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.facebook.com/azunaa.daifuku"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.instagram.com/rieruamatmalasss_?igsh=bG5udHRydmpxZjd2"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/adjie-rossi-arrianto/"
+                class="social-link"
+                target="_blank"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">Tentang Saya</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Saya adalah seorang Graphic Designer yang kreatif dan
+              detail-oriented dengan pengalaman dalam menciptakan desain visual
+              yang menarik dan efektif untuk berbagai media. Saya memiliki
+              keahlian dalam menggunakan perangkat lunak desain seperti Adobe
+              Photoshop, Illustrator, dan CorelDraw, serta pemahaman yang kuat
+              tentang prinsip desain, branding, dan komunikasi visual.
+            </p>
+
+            <p>
+              Terbiasa bekerja dalam tim maupun secara mandiri, saya mampu
+              menerjemahkan ide dan kebutuhan klien menjadi desain yang
+              berdampak dan berkesan. Saya terus belajar dan mengikuti tren
+              desain terbaru untuk menghasilkan karya yang relevan dan inovatif.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">Skill Yang Dikuasai</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.png
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Graphic Design</h4>
+
+                  <p class="service-item-text">
+                    Desain visual yang kreatif, kuat, dan profesional untuk
+                    menyampaikan pesan dengan jelas dan penuh gaya.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-tracing.png"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Tracing</h4>
+
+                  <p class="service-item-text">
+                    Menggambar ulang gambar atau ilustrasi secara manual atau
+                    otomatis untuk menghasilkan versi yang lebih bersih, tajam,
+                    dan dapat diedit.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-print.png"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Print Design</h4>
+
+                  <p class="service-item-text">
+                    Membuat desain cetak yang menarik dan fungsional untuk
+                    mendukung pesan visual dan identitas merek.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photography.png"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Fotografi</h4>
+
+                  <p class="service-item-text">
+                    Mengambil gambar berkualitas tinggi untuk menangkap momen,
+                    objek, atau pemandangan dengan detail dan estetika yang luar
+                    biasa.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <img src="./assets/images/Clients 8.jpg" alt="client logo" />
+              </li>
+
+              <li class="clients-item">
+                <img src="./assets/images/Clients 2.jpg" alt="client logo" />
+              </li>
+
+              <li class="clients-item">
+                <img src="./assets/images/Clients 3.jpg" alt="client logo" />
+              </li>
+
+              <li class="clients-item">
+                <img src="./assets/images/Clients 4.jpg" alt="client logo" />
+              </li>
+
+              <li class="clients-item">
+                <img src="./assets/images/Clients 5.jpg" alt="client logo" />
+              </li>
+
+              <li class="clients-item">
+                <img src="./assets/images/Clients 6.jpeg" alt="client logo" />
+              </li>
+
+              <li class="clients-item">
+                <img src="./assets/images/Clients 7.jpeg" alt="client logo" />
+              </li>
+
+              <li class="clients-item">
+                <img src="./assets/images/Clients 9.jpg" alt="client logo" />
+              </li>
+
+              <li class="clients-item">
+                <img src="./assets/images/Clients 10.jpg" alt="client logo" />
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="school-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Pendidikan</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SMKN 3 Cimahi</h4>
+
+                <span>2020 — 2023</span>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SMPN 3 Batujajar</h4>
+
+                <span>2017 — 2020</span>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">SDN 1 Cimerang</h4>
+
+                <span>2011 — 2017</span>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="briefcase-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Pengalaman</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Glory Sport Wear</h4>
+
+                <span>Januari 2023 — Maret 2025</span>
+
+                <p class="timeline-text">
+                  Mempelajari layouting pola desain, Menerapkan suatu desain
+                  menjadi ukuran real, Mempelajari pantone warna, Mengerti
+                  tentang cutting pola
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Interline Indonesia</h4>
+
+                <span>Juli 2022 — Desember 2022</span>
+
+                <p class="timeline-text">
+                  Menggambar tata letak dimensi interrior, 3d interrior desain,
+                  Shading dan rendering 3d interrior desain
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title"></h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Adobe Photoshop</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CorelDraw</h5>
+                  <data value="75">75%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Adobe Illustrator</h5>
+                  <data value="60">60%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Adobe After Effects</h5>
+                  <data value="55">55%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 55%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <!-- <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li> -->
+
+              <li class="filter-item">
+                <button class="active" data-filter-btn>Logo</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Jersey Basket</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Anime Design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Street Wear</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Mockup</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Fotografi</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <!-- <li class="select-item">
+                  <button data-select-item>All</button>
+                </li> -->
+
+                <li class="select-item">
+                  <button data-select-item>Logo</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Jersey Basket</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Anime Design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Street Wear</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Mockup</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Fotografi</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list"></ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const filterButtons = document.querySelectorAll("[data-filter-btn]");
+        const projectList = document.querySelector(".project-list");
+        const selectButton = document.querySelector("[data-select]");
+        const selectList = document.querySelector(".select-list");
+        const selectItems = document.querySelectorAll("[data-select-item]");
+
+        // Fungsi untuk memuat konten HTML dari file
+        function loadProjects(category) {
+          projectList.innerHTML = ""; // Clear existing content
+
+          fetch(`${category}.html`) // Mengambil file sesuai dengan kategori
+            .then((response) => response.text())
+            .then((data) => {
+              projectList.innerHTML = data; // Menampilkan konten dari file yang dimuat
+            })
+            .catch((error) => console.error("Error loading projects:", error));
+        }
+
+        // Menambahkan event listener untuk setiap tombol filter
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", function () {
+            const category = button.textContent
+              .trim()
+              .toLowerCase()
+              .replace(" ", "-");
+
+            // Mengubah status aktif pada tombol filter
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+            button.classList.add("active");
+
+            // Muat proyek berdasarkan kategori yang dipilih
+            loadProjects(category);
+          });
+        });
+
+        // Menambahkan event listener untuk dropdown di mobile
+        selectButton.addEventListener("click", function () {
+          selectList.classList.toggle("show");
+        });
+
+        selectItems.forEach((item) => {
+          item.addEventListener("click", function () {
+            const category = item.textContent
+              .trim()
+              .toLowerCase()
+              .replace(" ", "-");
+
+            // Menutup dropdown setelah memilih kategori
+            selectList.classList.remove("show");
+
+            // Mengubah status aktif pada tombol filter (dropdown)
+            filterButtons.forEach((btn) => btn.classList.remove("active"));
+            const activeButton = [...filterButtons].find(
+              (btn) =>
+                btn.textContent.trim().toLowerCase() ===
+                item.textContent.trim().toLowerCase()
+            );
+            if (activeButton) activeButton.classList.add("active");
+
+            // Muat proyek berdasarkan kategori yang dipilih
+            loadProjects(category);
+          });
+        });
+
+        // Memuat proyek "Logo" secara default saat pertama kali halaman dimuat
+        loadProjects("logo");
+      });
+    </script>
+
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
